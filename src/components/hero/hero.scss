@@ -1,0 +1,44 @@
+.hero{
+    height: calc(100vh - 100px);
+    background: linear-gradient(180deg,black);
+    overflow: hidden;
+}
+.textContainer{
+   height: 100px;
+   display: center;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    color: black;
+    top: 40%;
+    font-size:xx-large;
+    left: 10%;
+  
+}
+.imageContainer{
+    height: 100px;
+    position: flex;
+    top: 0%;
+    right: 0%;
+    
+}
+.exp{
+    opacity: 50%;
+}
+.buttons{
+    button{
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: transparent;
+    margin-right: 20px;
+    margin-top: 20px;
+    }
+}
+h1{
+    font-size: larger;
+}
+h4{
+    font-size: large;
+    margin-top: 10px
+}
